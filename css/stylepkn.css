@@ -84,4 +84,36 @@
 .wrap main .gra div .siema {
   margin: 0px auto;
 }
+
+.wrap main .gra button {
+  margin-top: 10px;
+  font-size: 1.5em;
+  padding: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.wrap .panel {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+}
+
+.wrap .panel div {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  text-align: center;
+}
+
+.wrap .panel div h3 {
+  font-size: 2em;
+}
 /*# sourceMappingURL=stylepkn.css.map */
