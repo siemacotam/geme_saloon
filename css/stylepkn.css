@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap .bg {
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.wrap main h1 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 90%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.wrap main .gra {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  padding: 10px;
+}
+
+.wrap main .gra h2 {
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.wrap main .gra div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 45vh;
+}
+
+.wrap main .gra div div {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  height: 20vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap main .gra div div img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.wrap main .gra div .siema {
+  margin: 0px auto;
+}
+/*# sourceMappingURL=stylepkn.css.map */

@@ -21,7 +21,7 @@
   bottom: 0;
 }
 
-.wrap main h1 {
+.wrap main .typ {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -29,9 +29,15 @@
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   text-align: center;
+  padding: 10px;
+}
+
+.wrap main .typ .type {
+  display: block;
+  height: 100%;
+  width: 100%;
   font-size: 3em;
   font-weight: bold;
-  height: 400vh;
 }
 
 .wrap main .games {
