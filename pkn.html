@@ -14,30 +14,30 @@
             <div class="gra">
                 <h2>wybierz broń</h2>
                 <div>
-                    <div data-option="papper"><img src="./img/paper.jpg" alt=""></div>
-                    <div data-option="rock"><img src="./img/rock.jpg" alt=""></div>
-                    <div class="siema" data-option="scisors"><img src="./img/scisors.jpg" alt=""></div>
+                    <div><img data-option="paper" src="./img/paper.jpg" alt=""></div>
+                    <div><img data-option="rock" src="./img/rock.jpg" alt=""></div>
+                    <div><img data-option="scisors" src="./img/scisors.jpg" alt=""></div>
                 </div>
-                <button> walcz !!!</button>
+                <button class="start"> walcz !!!</button>
             </div>
         </main>
         <div class="panel">
             <div class="choices">
                 <h3>rozgrywka</h3>
-                <p><span>twoja bron:</span></p>
-                <p><span>bron ai:</span></p>
-                <h2>zwyciezca: <span></span></h2>
+                <p>twoja bron:<span class="playerWeapon"></span></p>
+                <p>bron ai:<span class="aiWeapon"></span></p>
+                <h2>zwyciezca: <br><span class="whoWon"></span></h2>
             </div>
             <div class="scores">
                 <h3>wyniki</h3>
-                <p>liczba gier: <span></span></p>
-                <p>zwycięstwa: <span></span></p>
-                <p>porażki: <span></span></p>
-                <p>brak rozstrzygnięcia:  <span></span></p>
+                <p>liczba gier: <span class="gamesTotal">0</span></p>
+                <p>zwycięstwa: <span class="gamesWon">0</span></p>
+                <p>porażki: <span class="gamesLost">0</span></p>
+                <p>brak rozstrzygnięcia:  <span class="gamesDraw">0</span></p>
             </div>
         </div>
     </div>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/scriptpkn.js"></script>
 </body>
 </html>
