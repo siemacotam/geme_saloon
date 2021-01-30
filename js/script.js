@@ -12,6 +12,3 @@ const addLetter = () => {
 }
 
 const indexTyping = setInterval(addLetter, time)
-
-// papier kamien nozyczki
-

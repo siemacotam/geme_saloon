@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internetowy salon gier - najlepsza rozrywka w sieci</title>
+    <link rel="stylesheet" href="./css/styleoab.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="bg"></div> 
+        <main>
+           <h1>one-armed bandit</h1>
+           <section id="cards">
+               <div class="color"></div>
+               <div class="color"></div>
+               <div class="color"></div>
+           </section>
+           <section id="game">
+               <input type="number" placeholder="stawka" id="bid">
+               <button id="start">powodzenia !</button>
+           </section>
+           <section id="info">
+               Stan gotówki w automacie to <span id="wallet"></span>
+           </section>
+           <section id="stats">
+               <span id="results"> </span> za tobą <span id="games"></span> gier. <span id="wins"></span> wygranych oraz <span id="losses"></span> porażek.
+               <span id="porada"></span>
+           </section>
+        </main>
+    </div>
+
+    <script src="./js/oab/Wallet.js"></script>
+    <script src="./js/oab/Stats.js"></script>
+    <script src="./js/oab/Draw.js"></script>
+    <script src="./js/oab/Result.js"></script>
+    <script src="./js/oab/Game.js"></script>
+    <script src="./js/oab/scriptoab.js"></script>
+</body>
+</html>

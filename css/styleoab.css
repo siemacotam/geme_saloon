@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap .bg {
+  background-image: url(../img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.wrap main h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.wrap main #cards {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  top: 10%;
+  bottom: 60%;
+  left: 3%;
+  right: 3%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.wrap main #cards .color {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  margin: 10px 0px;
+}
+
+.wrap main #game {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  bottom: 50%;
+  left: 5%;
+  right: 5%;
+}
+
+.wrap main #game #bid, .wrap main #game #start {
+  font-size: 1.5rem;
+  width: 45%;
+  line-height: 2.5rem;
+}
+
+.wrap main #game #bid {
+  text-align: center;
+}
+
+.wrap main #game #start {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.wrap main #info {
+  position: absolute;
+  bottom: 40%;
+  left: 15%;
+  right: 15%;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.wrap main #stats {
+  position: absolute;
+  bottom: 30%;
+  left: 7%;
+  right: 7%;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+/*# sourceMappingURL=styleoab.css.map */
