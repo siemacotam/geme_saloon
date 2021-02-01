@@ -31,7 +31,10 @@ const clickCard = function(){
                     const gameTime = (endTime - startTime)/1000
                     console.log(gameTime)
                     alert(`Wygrana !! twój wynik to: ${gameTime} sekund `)
-                    location.reload()
+                    setTimeout(function(){
+                        location.reload()
+                    },2000)
+                    // location.reload()
                 }
                 }
                 else {
