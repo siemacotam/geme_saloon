@@ -103,4 +103,10 @@
   background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
 }
+
+.wrap main #stats span {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: white;
+}
 /*# sourceMappingURL=styleoab.css.map */
