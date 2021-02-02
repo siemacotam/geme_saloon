@@ -85,6 +85,20 @@
 }
 
 .wrap main .games .thirdgame {
+  background-image: url(../img/puzzle.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.wrap main .games .thirdgame a {
   color: black;
+}
+
+.wrap main .games .fourthgame {
+  background-image: url(../wisielec/images/hang.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=style.css.map */
