@@ -8,6 +8,6 @@ export class UI {
         return document.querySelector(selector);
     }
     getElements(selector){
-        document.querySelectorAll(selector);
+        return document.querySelectorAll(selector);
     }
 }

@@ -51,18 +51,18 @@ class Game extends UI{
     }
 
     #generateCells(){
-        for(let row=0; row < this.numberOfRows; row++){
+        for(let row = 0; row < this.#numberOfRows; row++){
             this.#cells[row] = [];
-            for(let col = 0; col < this.numberOfCols; col++){
+            for(let col = 0; col < this.#numberOfCols; col++){
                 this.#cells[row].push(new Cell(col, row));
             }
         }
     }
 
     #renderBoard(){
-        this.#cells.flat().forEach(cell => {
-            this.#board.insertAdjacentHTML('beforeend', cell.createElement())
-            cell.element = cell.getElement(cell.selector)
+        this.#cells.flat().forEach((cell) => {
+            this.#board.insertAdjacentHTML('beforeend', cell.createElement());
+            cell.element = cell.getElement(cell.selector);
         })
     }
 

@@ -14,7 +14,7 @@ export class Cell extends UI {
     }
 
     createElement(){
-        const element = `<div class="cell border border--concave data-cell data-x="${this.x}" data-y="${this.y}"></div>`
+        const element = `<div class="cell border border--concave" data-cell data-x="${this.x}" data-y="${this.y}"></div>`;
         return element;
     }
 }
