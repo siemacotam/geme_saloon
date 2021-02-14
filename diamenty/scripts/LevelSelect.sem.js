@@ -14,9 +14,6 @@ const gameLevels = [
     {
         level:3,
     },
-    {
-        level:4,
-    },
 ];
 
 const LEVEL_SELECT_BUTTON_ID = 'level-select__button'
@@ -46,6 +43,7 @@ createButton(value){
     }
 
     loadLevel(level){
+        media._diamondsSprite= loader.loadImage('./images/diamonds-transparent.png');
         media.backgroundImage = loader.loadImage('images/levelbackground.png');
         window.addEventListener(DATALOADED_EVENT_NAME, () => game.playLevel(level))
     }
