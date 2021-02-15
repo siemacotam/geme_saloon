@@ -3,7 +3,7 @@ import { DIAMOND_SIZE } from './Diamond.ems.js';
 
 export const EMPTY_BLOCK = 99;
 export const GAME_BOARD_X_OFFSET = 40;
-export const GAME_BOARD_Y_OFFSET = -5;
+export const GAME_BOARD_Y_OFFSET = 20;
 
 
 export const gameLevels = [
@@ -11,7 +11,7 @@ export const gameLevels = [
         level:1,
         numberOfMovements: 30,
         pointsToWin: 7000,
-        board : [
+        board: [
             {x: 0 * DIAMOND_SIZE, y: -1 * DIAMOND_SIZE + GAME_BOARD_Y_OFFSET, row: 0, column: 0, kind: EMPTY_BLOCK,},
 			{x: 0 * DIAMOND_SIZE, y: -1 * DIAMOND_SIZE + GAME_BOARD_Y_OFFSET, row: 1, column: 0, kind: EMPTY_BLOCK,},
 			{x: 0 * DIAMOND_SIZE, y: -1 * DIAMOND_SIZE + GAME_BOARD_Y_OFFSET, row: 2, column: 0, kind: EMPTY_BLOCK,},
